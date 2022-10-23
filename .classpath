@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="bazel-java-tutorial/external/bazel_tools/src/java_tools/buildjar/java"/>
+	<classpathentry kind="src" path="bazel-java-tutorial/external/bazel_tools/src/tools/android/java"/>
+	<classpathentry kind="src" path="bazel-java-tutorial/external/bazel_tools/tools/jdk"/>
+	<classpathentry excluding="main/java/" kind="src" path="bazel-java-tutorial/src"/>
+	<classpathentry kind="src" path="bazel-java-tutorial/src/main/java"/>
+	<classpathentry excluding="main/java/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="lib" path="bazel-bin/external/bazel_tools/tools/jdk/platformclasspath.jar"/>
+	<classpathentry kind="lib" path="bazel-bin/ProjectRunner-native-header.jar"/>
+	<classpathentry kind="lib" path="bazel-bin/ProjectRunner.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/bazel-out/x64_windows-fastbuild/bin/external/bazel_tools/tools/jdk/platformclasspath.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/bazel-out/x64_windows-fastbuild/bin/ProjectRunner-native-header.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/bazel-out/x64_windows-fastbuild/bin/ProjectRunner.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/local_jdk/lib/jrt-fs.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/GenClass_deploy.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/JacocoCoverage_jarjar_deploy.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/JavaBuilder_deploy.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/Runner_deploy.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/asm-9.2.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/asm-commons-9.2.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/asm-tree-9.2.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/jacocoagent-0.8.7.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/org.jacoco.agent-0.8.7-sources.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/org.jacoco.agent-0.8.7.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/org.jacoco.ant-0.8.7-nodeps.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/org.jacoco.ant-0.8.7-sources.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/org.jacoco.ant-0.8.7.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/org.jacoco.core-0.8.7-sources.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/org.jacoco.core-0.8.7.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/org.jacoco.report-0.8.7-sources.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/jacoco/org.jacoco.report-0.8.7.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/third_party/java/proguard/proguard.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/turbine_direct_binary_deploy.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remote_java_tools/java_tools/VanillaJavaBuilder_deploy.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/demo/jfc/CodePointIM/CodePointIM.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/demo/jfc/FileChooserDemo/FileChooserDemo.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/demo/jfc/Font2DTest/Font2DTest.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/demo/jfc/J2Ddemo/J2Ddemo.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/demo/jfc/Metalworks/Metalworks.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/demo/jfc/Notepad/Notepad.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/demo/jfc/SampleTree/SampleTree.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/demo/jfc/Stylepad/Stylepad.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/demo/jfc/SwingSet2/SwingSet2.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/demo/jfc/TableExample/TableExample.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/demo/jfc/TransparentRuler/TransparentRuler.jar"/>
+	<classpathentry kind="lib" path="bazel-java-tutorial/external/remotejdk11_win/lib/jrt-fs.jar"/>
+	<classpathentry kind="lib" path="bazel-out/x64_windows-fastbuild/bin/external/bazel_tools/tools/jdk/platformclasspath.jar"/>
+	<classpathentry kind="lib" path="bazel-out/x64_windows-fastbuild/bin/ProjectRunner-native-header.jar"/>
+	<classpathentry kind="lib" path="bazel-out/x64_windows-fastbuild/bin/ProjectRunner.jar"/>
+	<classpathentry kind="output" path="bazel-bin/_javac/ProjectRunner/ProjectRunner_classes"/>
+</classpath>
